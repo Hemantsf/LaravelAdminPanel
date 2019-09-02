@@ -4,6 +4,7 @@
 <title>Matrix Admin</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="{{ asset('css/backend/select2.css')}}" />
 <link rel="stylesheet" href="{{ asset('css/backend/bootstrap.min.css')}}" />
 <link rel="stylesheet" href="{{ asset('css/backend/bootstrap-responsive.min.css')}}" />
 <link rel="stylesheet" href="{{ asset('css/backend/fullcalendar.css')}}" />
@@ -31,7 +32,9 @@
 <script src="{{ asset('js/backendjs/jquery.uniform.js')}}"></script> 
 <script src="{{ asset('js/backendjs/select2.min.js')}}"></script> 
 <script src="{{ asset('js/backendjs/jquery.validate.js')}}"></script> 
-<script src="{{ asset('js/backendjs/matrix.js')}}"></script> 
+<script src="{{ asset('js/backendjs/matrix.js')}}"></script>
+<script src="{{ asset('js/backendjs/jquery.datatables.min.js')}}"></script>
+<script src="{{ asset('js/backendjs/matrix.tables.js')}}"></script> 
 <script src="{{ asset('js/backendjs/matrix.form_validation.js')}}"></script>
 </body>
 </html>
