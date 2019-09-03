@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="{{ asset('css/backend/select2.css')}}" />
 <link rel="stylesheet" href="{{ asset('css/backend/bootstrap.min.css')}}" />
 <link rel="stylesheet" href="{{ asset('css/backend/bootstrap-responsive.min.css')}}" />
+<link rel="stylesheet" href="{{ asset('css/backend/uniform.css')}}" />
 <link rel="stylesheet" href="{{ asset('css/backend/fullcalendar.css')}}" />
 <link rel="stylesheet" href="{{ asset('css/backend/matrix-style.css')}}" />
 <link rel="stylesheet" href="{{ asset('css/backend/matrix-media.css')}}" />

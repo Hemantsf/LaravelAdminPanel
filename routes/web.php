@@ -20,7 +20,9 @@ Route::get('/', function () {
 Route::match(['get','post'],'/admin', 'AdminController@login');
 
 
-Route::get('/logout', 'AdminController@logout');
+Route::get('/home', 'HomeController@index')->name('home');
+
+
 
 Auth::routes();
 
@@ -36,6 +38,11 @@ Route::group(['middleware' =>['auth']],function(){
     Route::match(['get','post'],'/admin/delete-category/{id}', 'CategoryController@deleteCategory');
     Route::get('/admin/view-categories', 'CategoryController@viewCategories');
     
+    //Products Categories
+    Route::match(['get','post'],'/admin/add-product', 'ProductsController@addProduct');
+    
+
 });
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/logout', 'AdminController@logout');
